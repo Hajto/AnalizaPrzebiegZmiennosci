@@ -6,6 +6,8 @@
 \usepackage[utf8]{inputenc}
 \usetikzlibrary{arrows}
 \usepackage{amssymb}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
 \title{Przebieg zmienności funkcji}
 \author{Jakub Hajto}
 
@@ -52,8 +54,49 @@
 				\item Przedziały wypukłości ku dołowi \\
 				$ f\cup \Leftrightarrow x \in (1,\infty) $
 			\end{enumerate}
-		\item Tabela
-		\item Wykres funkcji
+		\item Tabela \\
+			\begin{center}
+				\begin{tabular}{ |c|c|c|c|c| } 
+					\hline
+					Przedziały &
+						$ (-\infty, \sqrt{2} -1) $ &
+						$ \sqrt{2} -1 $ & 
+						$ (\sqrt{2} -1, 1) $ &
+						$ 1 $ \\
+					$ f(x) $ &
+						$ -\infty \to 3 - 2\sqrt{2} $ &
+						$ Max 3 - 2\sqrt{2} $ &
+						$ (3 - 2\sqrt{2}, -\infty) $ &
+						$ \times $ \\
+					$ f^{\prime}(x) $ &
+						+ &
+						0 &
+						- &
+						$ \times $ \\
+					\hline
+			\end{tabular}
+			\begin{tabular}{ |c|c|c|c| } 
+				\hline
+				Przedziały &
+					$ (1, \sqrt{2} + 1) $ &
+					$ \sqrt{2} + 1 $ &
+					$ (\sqrt{2} + 1, +\infty) $\\
+				$ f(x) $ &
+					$ \infty \to 3 + 2\sqrt{2} $ &
+					$ 3 + 2\sqrt{2} $ &
+					$ (3 + 2\sqrt{2}, + \infty) $ \\
+				$ f^{\prime}(x) $ &
+					- &
+					0 &
+					+  \\
+				\hline
+			\end{tabular}
+			\end{center}
+		\item Wykres funkcji \\
+			\begin{center}
+				\includegraphics[scale=0.6]{funkcja1}
+			\end{center}
+			
 	\end{enumerate}
 
 	
