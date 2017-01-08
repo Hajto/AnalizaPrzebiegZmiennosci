@@ -1,0 +1,17 @@
+\documentclass[11pt]{scrartcl}
+\usepackage{tikz,tkz-tab,amsmath}
+\usetikzlibrary{arrows}
+
+\begin{document}
+\newcommand{\E}{\mathrm{e}}
+\begin{tikzpicture}
+\tikzset{arrow style/.style = {blue,->,> = latex',
+shorten > = 6pt,
+shorten < = 6pt}}
+\tkzTabInit[espcl=5]{$x$ /1, $\ln x +1$ /1.5, $x \ln x$ /2}{$0$ ,$1/\E$ , $+\infty$}%
+\tkzTabLine{d,-,z,+,}
+\tkzTabVar%
+{ D+/ / $0$ ,%
+-/ \colorbox{black}{\textcolor{white}{$\dfrac{-1}{e}$}}/ ,+/ $+\infty$ / }%
+\end{tikzpicture}
+\end{document}
