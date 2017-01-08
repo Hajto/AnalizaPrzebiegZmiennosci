@@ -1,6 +1,7 @@
 \documentclass[11pt]{scrartcl}
 \usepackage{tikz,tkz-tab,amsmath}
 \usepackage{polski}
+\usepackage[miktex]{gnuplottex}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usetikzlibrary{arrows}
@@ -23,7 +24,7 @@
 			$ f(x) = 0 \Longleftrightarrow x = -1 \vee x = 0 $
 		\item Przecięcie z osią OY: \\
 			f(0) = 0
-		\item Granice na krańca przedziałów:
+		\item Granice na krańcach przedziałów:
 			\begin{enumerate}
 				\item $ \lim_{x\to\infty} f(x) = -\infty $
 				\item $ \lim_{x\to1^-} f(x) = -\infty $
@@ -39,6 +40,18 @@
 			\end{enumerate}
 		\item Pierwsza pochodna \\
 			$ f^{\prime}(x) = \frac{x^2 - -2x -1}{(x-1)^2} =  \frac{(x- \sqrt{2} - 1)(x + \sqrt{2} - 1)}{(x-1)^2} $
+			\begin{gnuplot}[terminal=pdf,terminaloptions=color]
+				unset key
+				set samples 10000
+				set format '%g'
+				set xlabel "Avg. No. of demand duration (slot) "
+				set ylabel "Acceptence rate (%)"
+				set xrange [-6:6]
+				set yrange [0:0.41]
+				f(n,x) = gamma(.5*(n+1))/(sqrt(n*pi)*gamma(.5*n))*((1+x**2/n)**(-.5*(n+1)))
+				plot for[i=1:20] f(i,x)
+			\end{gnuplot}
+		%123
 			\begin{enumerate}
 				\item $ f\nearrow dla x \in (-\infty, \sqrt{2} -1) \cup (\sqrt{2} +1, +\infty) $
 				\item $ f\searrow x \in ( \sqrt{2} - 1, \sqrt{2} +1 ) $
