@@ -1,0 +1,110 @@
+\documentclass[11pt]{scrartcl}
+\usepackage{tikz,tkz-tab,amsmath}
+\usepackage{pgfplots}
+\usepackage{polski}
+\usepackage[miktex]{gnuplottex}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usetikzlibrary{arrows}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\title{Przebieg zmienności funkcji}
+\author{Jakub Hajto}
+
+
+\everymath{\displaystyle}
+\begin{document}
+\maketitle
+\begin{center}
+	Badana funckja $$ f(x) = x^4 + x^3 $$
+\end{center}
+\begin{enumerate}
+\item Dziedzina: \\
+	$ D = \mathbb{R} $
+\item Zbiór wartości: \\
+	$ Z_w = (-\frac{27}{256}, +\infty) $
+\item Miejsca zerowe: \\
+	$ f(x) = 0 \Longleftrightarrow  x = 0 \vee x = -1 $
+\item Przecięcie z osią OY: \\
+	$ f(0) = 0 $
+\item Granice na krańcach przedziałów:
+	\begin{enumerate}
+	\item $ \lim_{x\to-\infty} f(x) = + \infty $
+	\item $ \lim_{x\to+\infty} f(x) = + \infty $
+	\end{enumerate}
+\item Pierwsza pochodna \\
+	$ f^{\prime}(x) = x^2 (3 + 4 x) $
+  \begin{enumerate}
+  \item $ f\nearrow dla x \in (-\frac{3}{4}, 0) \cup (0, + \infty) $
+	\item $ f\searrow x \in ( 0, -\frac{3}{4}) $
+	\item Ekstrema lokalne:
+		\begin{enumerate}
+		\item W $ x = \frac{1}{4} $ istnieje minimum lokalne równe $ -\frac{1}{2} $
+		\end{enumerate}
+  \end{enumerate}
+\item Druga pochodna \\
+	$ f^{\prime\prime}(x) = 6 x (1 + 2 x) $
+	\begin{enumerate}
+	\item Przedziały wypukłości ku górze \\
+		$ f\cap \Leftrightarrow x \in (- \frac{1}{2},0) $
+	\item Przedziały wypukłości ku dołowi \\
+		$ f\cup \Leftrightarrow x \in (-\infty, - \frac{1}{2}) \cup (0, +\infty) $
+	\item Punk przegięcia w $ x = 0 $
+  \item Punk przegięcia w $ x = -\frac{1}{2} $
+	\end{enumerate}
+\item Tabela \\
+	\begin{center}
+		\begin{tabular}{ |c|c|c|c|c|c|c|c| }
+			\hline
+			Przedziały &
+			$ (-\infty, -\frac{3}{4}) $ &
+			$ -\frac{3}{4} $ &
+			$ (-\frac{3}{4}, -\frac{1}{2}) $ &
+			$ -\frac{1}{2} $ &
+			$ (-\frac{1}{2} ,0) $ &
+			$ 0 $ &
+      $ (0, \infty) $ \\
+			$ f(x) $ &
+			$ (-\infty, 0) $ &
+			$ 0 $ &
+			$ (- \frac{1}{2}, - \frac{1}{8}) $ &
+			$ - \frac{1}{8} $ &
+			$ (- \frac{1}{8}, 0 ) $ &
+			$ 0 $ &
+      $ (0, \infty )$\\
+			$ f^{\prime}(x) $ &
+			- &
+			0 &
+			+ &
+			+ &
+			+ &
+			0 &
+      + \\
+			$ f^{\prime\prime}(x) $ &
+			+ &
+			+ &
+			+ &
+			0 &
+			- &
+			0 &
+      + \\
+			\hline
+		\end{tabular}
+	\end{center}
+\end{enumerate}
+
+\begin{center}
+\begin{tikzpicture}
+    \begin{axis}[%
+    xlabel=$x$,
+    ylabel=$f(x)$,
+    xmin=-1.1,
+    xmax=0.5,
+    grid=major]
+    \addplot[smooth,red] gnuplot{x^4+x^3};
+    \end{axis}
+\end{tikzpicture}
+\end{center}
+
+\end{document}

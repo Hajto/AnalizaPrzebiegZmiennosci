@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  9 JAN 2017 12:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  9 JAN 2017 12:50
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  %&-line parsing enabled.
-**"funkcja 2.tex"
-(./funkcja 2.tex
+**funkcja3.tex
+(./funkcja3.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/scrartcl.cls
@@ -529,7 +529,128 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 LaTeX Info: Redefining \[ on input line 2739.
 LaTeX Info: Redefining \] on input line 2740.
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/polski/polski.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2016/01/06 v1.13 Data Visualization (1.13)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks34
+\t@pgfplots@tokb=\toks35
+\t@pgfplots@tokc=\toks36
+\pgfplots@tmpa=\dimen163
+\c@pgfplots@coordindex=\count134
+\c@pgfplots@scanlineindex=\count135
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric
+.code.tex))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.c
+ode.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplot
+soldpgfsupp_loader.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.cod
+e.tex)
+Package pgfplots: loading complementary arithmetics for your pgf version...
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplot
+soldpgfsupp_pgflibraryfpu.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplot
+soldpgfsupp_pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count136
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code
+.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+liststructure.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+liststructureext.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+array.code.tex
+\c@pgfplotsarray@tmp=\count137
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+matrix.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable
+shared.code.tex
+\c@pgfplotstable@counta=\count138
+\t@pgfplotstable@a=\toks37
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+deque.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.co
+de.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.da
+ta.code.tex))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb
+.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplot
+s.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count139
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots
+.surfshading.pgfsys-pdftex.def)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.
+code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.cod
+e.tex))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.c
+ode.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.c
+ode.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandle
+r.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.
+code.tex)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.
+tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessin
+g.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.cod
+e.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.
+tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.te
+x)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
+s.code.tex
+\pgfdecoratedcompleteddistance=\dimen164
+\pgfdecoratedremainingdistance=\dimen165
+\pgfdecoratedinputsegmentcompleteddistance=\dimen166
+\pgfdecoratedinputsegmentremainingdistance=\dimen167
+\pgf@decorate@distancetomove=\dimen168
+\pgf@decorate@repeatstate=\count140
+\pgfdecorationsegmentamplitude=\dimen169
+\pgfdecorationsegmentlength=\dimen170
+)
+\tikz@lib@dec@box=\box41
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathmorphing.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.pathmorphing.code.tex))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathreplacing.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.pathreplacing.code.tex))
+\pgfplots@numplots=\count141
+\pgfplots@xmin@reg=\dimen171
+\pgfplots@xmax@reg=\dimen172
+\pgfplots@ymin@reg=\dimen173
+\pgfplots@ymax@reg=\dimen174
+\pgfplots@zmin@reg=\dimen175
+\pgfplots@zmax@reg=\dimen176
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmar
+ks.code.tex
+File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
+))) (/usr/local/texlive/2016/texmf-dist/tex/latex/polski/polski.sty
 Package: polski 2008/02/24 v1.3.3 Polish language package
 
 Document language package `polski' v1.3.3 <2008/02/24>
@@ -583,13 +704,13 @@ Package: moreverb 2008/06/03 v2.3a `more' verbatim facilities
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks34
-\verbatim@line=\toks35
+\every@verbatim=\toks38
+\verbatim@line=\toks39
 \verbatim@in@stream=\read2
 )
-\tab@position=\count134
-\tab@size=\count135
-\listing@line=\count136
+\tab@position=\count142
+\tab@size=\count143
+\listing@line=\count144
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/catchfile.sty
 Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
@@ -607,16 +728,16 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 ))
 \verbatim@out=\write4
-runsystem(echo t > "w18-test-201719743.tex")...disabled (restricted).
+runsystem(echo t > "w18-test-201719770.tex")...executed.
 
-runsystem(del "w18-test-201719743.tex")...disabled (restricted).
+runsystem(del "w18-test-201719770.tex")...executed.
 
 
 
 Package gnuplottex Warning: Shell escape not enabled.
 (gnuplottex)                You'll need to convert the graphs yourself..
 
-\c@fignum=\count137
+\c@fignum=\count145
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
@@ -626,8 +747,8 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks36
-\inpenc@posthook=\toks37
+\inpenc@prehook=\toks40
+\inpenc@posthook=\toks41
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
@@ -950,37 +1071,37 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(./funkcja 2.aux)
-\openout1 = `"funkcja 2.aux"'.
+(./funkcja3.aux)
+\openout1 = `funkcja3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
  ABD: EveryShipout initializing macros
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count138
-\scratchdimen=\dimen163
-\scratchbox=\box41
-\nofMPsegments=\count139
-\nofMParguments=\count140
-\everyMPshowfont=\toks38
-\MPscratchCnt=\count141
-\MPscratchDim=\dimen164
-\MPnumerator=\count142
-\makeMPintoPDFobject=\count143
-\everyMPtoPDFconversion=\toks39
+\scratchcounter=\count146
+\scratchdimen=\dimen177
+\scratchbox=\box42
+\nofMPsegments=\count147
+\nofMParguments=\count148
+\everyMPshowfont=\toks42
+\MPscratchCnt=\count149
+\MPscratchDim=\dimen178
+\MPnumerator=\count150
+\makeMPintoPDFobject=\count151
+\everyMPtoPDFconversion=\toks43
 ) (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -1017,102 +1138,208 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 17.
 
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
+ick labels; missing features). Consider writing \pgfplotsset{compat=1.13} into 
+your preamble.
+ on input line 17.
+
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 19.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Try loading font information for OML+plm on input line 17.
+LaTeX Font Info:    Try loading font information for OML+plm on input line 19.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/polski/omlplm.fd
 File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-LaTeX Font Info:    Try loading font information for OMS+plsy on input line 17.
+LaTeX Font Info:    Try loading font information for OMS+plsy on input line 19.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/polski/omsplsy.fd
 File: omsplsy.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-LaTeX Font Info:    Try loading font information for OMX+plex on input line 17.
+LaTeX Font Info:    Try loading font information for OMX+plex on input line 19.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/polski/omxplex.fd
 File: omxplex.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <14.4> on input line 17.
+(Font)              <14.4> on input line 19.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <10> on input line 17.
+(Font)              <10> on input line 19.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <7> on input line 17.
-LaTeX Font Info:    Try loading font information for U+msa on input line 17.
+(Font)              <7> on input line 19.
+LaTeX Font Info:    Try loading font information for U+msa on input line 19.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 17.
+LaTeX Font Info:    Try loading font information for U+msb on input line 19.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <10.95> on input line 18.
+(Font)              <10.95> on input line 20.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <8> on input line 18.
+(Font)              <8> on input line 20.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <6> on input line 18.
+(Font)              <6> on input line 20.
  [1
 
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
 
+\openout3 = `funkcja3.pgf-plot.gnuplot'.
 
-Overfull \hbox (2.18874pt too wide) in paragraph at lines 66--126
- [] 
- []
+runsystem(gnuplot funkcja3.pgf-plot.gnuplot)...executed.
 
-
-Overfull \hbox (72.95541pt too wide) in paragraph at lines 66--126
- [] 
- []
-
-<images/funkcja2.png, id=20, 642.4pt x 481.8pt>
-File: images/funkcja2.png Graphic file (type png)
- <use images/funkcja2.png>
-Package pdftex.def Info: images/funkcja2.png used on input line 129.
-(pdftex.def)             Requested size: 385.44298pt x 289.08221pt.
-
-[2] [3 <./images/funkcja2.png>] (./funkcja 2.aux) ) 
+PGFPlots: reading {funkcja3.pgf-plot.table}
+! Dimension too large.
+<recently read> \pgf@yy 
+                        
+l.106     \end{axis}
+                    
+? 
+! Dimension too large.
+<recently read> \pgf@yy 
+                        
+l.106     \end{axis}
+                    
+? 
+! Dimension too large.
+<recently read> \pgf@yy 
+                        
+l.106     \end{axis}
+                    
+? 
+! Dimension too large.
+<recently read> \pgf@yy 
+                        
+l.106     \end{axis}
+                    
+? 
+! Dimension too large.
+<recently read> \pgf@yy 
+                        
+l.106     \end{axis}
+                    
+? 
+! Dimension too large.
+<recently read> \pgf@yy 
+                        
+l.106     \end{axis}
+                    
+? 
+! Dimension too large.
+<to be read again> 
+                   \advance 
+l.106     \end{axis}
+                    
+? 
+! Dimension too large.
+<to be read again> 
+                   \advance 
+l.106     \end{axis}
+                    
+? 
+! Dimension too large.
+<recently read> \pgf@yy 
+                        
+l.106     \end{axis}
+                    
+? 
+! Dimension too large.
+<recently read> \pgf@yy 
+                        
+l.106     \end{axis}
+                    
+? 
+! Dimension too large.
+<recently read> \pgf@yy 
+                        
+l.106     \end{axis}
+                    
+? 
+! Dimension too large.
+<to be read again> 
+                   \advance 
+l.106     \end{axis}
+                    
+? 
+! Dimension too large.
+<recently read> \pgf@yy 
+                        
+l.106     \end{axis}
+                    
+? 
+! Dimension too large.
+<recently read> \pgf@yy 
+                        
+l.106     \end{axis}
+                    
+? 
+! Dimension too large.
+<recently read> \pgf@yy 
+                        
+l.106     \end{axis}
+                    
+? 
+! Dimension too large.
+<recently read> \pgf@yy 
+                        
+l.106     \end{axis}
+                    
+? 
+! Dimension too large.
+<recently read> \pgf@yy 
+                        
+l.106     \end{axis}
+                    
+? 
+! Dimension too large.
+<recently read> \pgf@yy 
+                        
+l.106     \end{axis}
+                    
+? 
+! Dimension too large.
+<recently read> \pgf@yy 
+                        
+l.106     \end{axis}
+                    
+? 
+[2] (./funkcja3.aux) ) 
 Here is how much of TeX's memory you used:
- 16351 strings out of 493014
- 320060 string characters out of 6133352
- 450145 words of memory out of 5000000
- 19544 multiletter control sequences out of 15000+600000
+ 26091 strings out of 493014
+ 646795 string characters out of 6133352
+ 896171 words of memory out of 5000000
+ 29148 multiletter control sequences out of 15000+600000
  17433 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,8n,65p,8523b,320s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/tex
-mf-dist/fonts/enc/dvips/pl/plms.enc}{/usr/local/texlive/2016/texmf-dist/fonts/e
-nc/dvips/pl/plmi.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/pl/plr
-m.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.
-enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msb
-m10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/pl/plmi10.pfb></
-usr/local/texlive/2016/texmf-dist/fonts/type1/public/pl/plmi8.pfb></usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/pl/plr10.pfb></usr/local/texlive/2016
-/texmf-dist/fonts/type1/public/pl/plr8.pfb></usr/local/texlive/2016/texmf-dist/
-fonts/type1/public/pl/plsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
-1/public/pl/plsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/pl
-/plsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm
-1095.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm14
-40.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfsx2074
-.pfb>
-Output written on "funkcja 2.pdf" (3 pages, 96445 bytes).
+ 64i,9n,100p,8520b,1817s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/pl/pl
+ms.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/pl/plmi.enc}{/usr/lo
+cal/texlive/2016/texmf-dist/fonts/enc/dvips/pl/plrm.enc}{/usr/local/texlive/201
+6/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2016/
+texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/public/pl/plmi10.pfb></usr/local/texlive/2016/texmf-
+dist/fonts/type1/public/pl/plmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/
+type1/public/pl/plr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
+c/pl/plr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/pl/plsy10.
+pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/pl/plsy8.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb>
+Output written on funkcja3.pdf (2 pages, 83259 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
+ 58 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
